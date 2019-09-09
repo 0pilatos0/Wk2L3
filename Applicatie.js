@@ -19,7 +19,7 @@ function test(getal, getal2) {
     document.write(tempGetal + ' - 12 = ' + getal + '\n')
 }
 
-let tafel = prompt('Welke tafel?', 'Tafel')
+/*let tafel = prompt('Welke tafel?', 'Tafel')
 let hoeveelheid = prompt('Hoeveel keer?', 'Hoeveelheid')
 tafels(tafel, hoeveelheid)
 function tafels(tafel, hoeveelheid) {
@@ -29,4 +29,4 @@ function tafels(tafel, hoeveelheid) {
         let antwoord = tafel * hoeveelheidT
         document.write(tafel + ' * ' + hoeveelheidT + ' = ' + antwoord + '\n')
     }
-}
+}*/
