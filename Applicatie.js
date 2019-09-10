@@ -1,7 +1,20 @@
 // Paul van der Lei
 // Media- en Applicatieontwikkelaar leerjaar 1
 
-let ui = prompt('Vul getal in', 'Getal')
+
+
+/*let tafel = prompt('Welke tafel?', 'Tafel')
+let hoeveelheid = prompt('Hoeveel keer?', 'Hoeveelheid')
+tafels(tafel, hoeveelheid)
+function tafels(tafel, hoeveelheid) {
+    for (let hoeveelheidT = 0; hoeveelheidT <= hoeveelheid; hoeveelheidT++) {
+        //const element = array[hoeveelheidT];
+        
+        let antwoord = tafel * hoeveelheidT
+        document.write(tafel + ' * ' + hoeveelheidT + ' = ' + antwoord + '\n')
+    }
+}*/
+let ui = prompt('Vul getal in wat je in de berekening wilt verwerken', 'Getal')
 test(12, ui)
 function test(getal, getal2) {
     document.write(getal + '\n')
@@ -18,15 +31,3 @@ function test(getal, getal2) {
     getal = getal -= 12
     document.write(tempGetal + ' - 12 = ' + getal + '\n')
 }
-
-/*let tafel = prompt('Welke tafel?', 'Tafel')
-let hoeveelheid = prompt('Hoeveel keer?', 'Hoeveelheid')
-tafels(tafel, hoeveelheid)
-function tafels(tafel, hoeveelheid) {
-    for (let hoeveelheidT = 0; hoeveelheidT <= hoeveelheid; hoeveelheidT++) {
-        //const element = array[hoeveelheidT];
-        
-        let antwoord = tafel * hoeveelheidT
-        document.write(tafel + ' * ' + hoeveelheidT + ' = ' + antwoord + '\n')
-    }
-}*/
